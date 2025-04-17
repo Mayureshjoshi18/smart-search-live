@@ -1,0 +1,28 @@
+{
+  "name": "live-search-backend",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "connect-timeout": "^1.9.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "string-similarity": "^4.0.4"
+  },
+  "devDependencies": {
+    "@types/connect-timeout": "^0.0.39",
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.14.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
